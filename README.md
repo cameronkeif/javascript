@@ -2040,12 +2040,12 @@ Other Style Guides
 ## Whitespace
 
   <a name="whitespace--spaces"></a><a name="18.1"></a>
-  - [18.1](#whitespace--spaces) Use soft tabs set to 2 spaces. eslint: [`indent`](http://eslint.org/docs/rules/indent.html) jscs: [`validateIndentation`](http://jscs.info/rule/validateIndentation)
+  - [18.1](#whitespace--spaces) Use soft tabs set to 4 spaces. eslint: [`indent`](http://eslint.org/docs/rules/indent.html) jscs: [`validateIndentation`](http://jscs.info/rule/validateIndentation)
 
     ```javascript
     // bad
     function foo() {
-    ∙∙∙∙const name;
+    ∙∙const name;
     }
 
     // bad
@@ -2055,7 +2055,7 @@ Other Style Guides
 
     // good
     function baz() {
-    ∙∙const name;
+    ∙∙∙∙const name;
     }
     ```
 
